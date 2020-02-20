@@ -1,11 +1,14 @@
 import React from 'react';
+import Header from './header';
 
-class App extends React.Component {
+export default class App extends React.Component {
   // constructor(props) {
   //   super(props);
   // }
 
   render(){
-    <div>Hello!</div>
+    return(
+      <Header />
+    )
   }
 }
