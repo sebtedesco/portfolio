@@ -1,12 +1,12 @@
 import React from 'react';
 
-export default class Header extends React.Component {
+export default class TopNav extends React.Component {
 
 
   render() {
     return (
-      <div className="header">
-        <div className="left-box"></div>
+      <div className="top-nav">
+        {/* <div className="left-box"></div>
         <div className="right-box"></div>
         <nav className="navbar">
           <ul>
@@ -16,7 +16,7 @@ export default class Header extends React.Component {
             <li className="nav-item">Applications</li>
             <li className="nav-item">Contact</li>
           </ul>
-        </nav>
+        </nav> */}
       </div>
     )
   }
