@@ -1,5 +1,7 @@
 import React from 'react';
-import Header from './header';
+import TopNav from './top-nav';
+import LeftNav from './left-nav';
+import RightNav from './right-nav';
 
 export default class App extends React.Component {
   // constructor(props) {
@@ -8,7 +10,11 @@ export default class App extends React.Component {
 
   render(){
     return(
-      <Header />
+      <>
+        <TopNav />
+        <LeftNav />
+        <RightNav />
+      </>
     )
   }
 }

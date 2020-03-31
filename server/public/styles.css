@@ -1,3 +1,38 @@
-.red {
-  font-weight: bold;
+.top-nav {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 8vh;
+  width: 100vw;
+}
+
+.top-nav:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 95vw;
+  bottom: -5px;
+  left: 4vh;
+  border: 1px solid black;
+}
+
+.left-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 10vw;
+  border-right: 2px solid black;
+}
+
+.right-nav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 5vw;
+  border-left: 2px solid black;
 }
