@@ -38,7 +38,7 @@ li {
 }
 
 li:hover {
-  color: #6f715a
+  color:
 }
 
 a {
@@ -88,10 +88,14 @@ a {
   position: absolute;
   margin: 0;
   padding: 0;
-  top: 8vh;
+  top: vh;
   left: 10vw;
   height: 92vh;
   width: 85vw;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
   overflow: scroll;
+}
+
+.skills {
+  background-color: #83856e;
 }
