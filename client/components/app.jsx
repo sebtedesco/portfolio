@@ -3,6 +3,7 @@ import TopNav from './top-nav';
 import LeftNav from './left-nav';
 import RightNav from './right-nav';
 import AboutMe from './about';
+import Skills from './skills';
 
 export default class App extends React.Component {
   // constructor(props) {
@@ -17,6 +18,7 @@ export default class App extends React.Component {
         <RightNav />
         <div className="outermost-body-container">
           <AboutMe />
+          <Skills />
         </div>
       </>
     )
